@@ -3,7 +3,7 @@ module github.com/kedacore/keda/v2
 go 1.20
 
 require (
-	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/compute/metadata v0.3.0
 	cloud.google.com/go/monitoring v1.15.1
 	cloud.google.com/go/storage v1.30.1
 	dario.cat/mergo v1.0.0
@@ -17,7 +17,7 @@ require (
 	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/Azure/azure-storage-queue-go v0.0.0-20230531184854-c06a8eff66fe
 	github.com/Azure/go-autorest/autorest v0.11.29
-	github.com/Azure/go-autorest/autorest/azure/auth v0.5.12
+	github.com/Azure/go-autorest/autorest/azure/auth v0.5.13
 	github.com/AzureAD/microsoft-authentication-library-for-go v1.0.0
 	github.com/DataDog/datadog-api-client-go v1.16.0
 	github.com/Huawei/gophercloud v1.0.21
@@ -35,11 +35,11 @@ require (
 	github.com/go-playground/validator/v10 v10.14.1
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gobwas/glob v0.2.3
-	github.com/gocql/gocql v1.5.2
+	github.com/gocql/gocql v1.6.0
 	github.com/golang/mock v1.6.0
 	github.com/google/go-cmp v0.5.9
 	github.com/google/go-github/v50 v50.2.0
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/gophercloud/gophercloud v1.5.0
 	github.com/hashicorp/vault/api v1.9.2
 	github.com/influxdata/influxdb-client-go/v2 v2.12.3
@@ -69,7 +69,7 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a
 	go.etcd.io/etcd/client/v3 v3.5.9
 	go.mongodb.org/mongo-driver v1.11.7
-	golang.org/x/oauth2 v0.9.0
+	golang.org/x/oauth2 v0.21.0
 	golang.org/x/sync v0.3.0
 	google.golang.org/api v0.128.0
 	google.golang.org/grpc v1.56.1
@@ -122,7 +122,6 @@ replace (
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
-	cloud.google.com/go/compute v1.19.3 // indirect
 	cloud.google.com/go/iam v0.13.0 // indirect
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
@@ -288,7 +287,7 @@ require (
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
-	golang.org/x/crypto v0.9.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/exp v0.0.0-20220303212507-bbda1eaf7a17 // indirect
 	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.11.0 // indirect
