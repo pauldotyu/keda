@@ -3,7 +3,7 @@ module github.com/kedacore/keda/v2
 go 1.20
 
 require (
-	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/compute/metadata v0.3.0
 	cloud.google.com/go/monitoring v1.15.1
 	cloud.google.com/go/storage v1.30.1
 	dario.cat/mergo v1.0.0
@@ -69,7 +69,7 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a
 	go.etcd.io/etcd/client/v3 v3.5.9
 	go.mongodb.org/mongo-driver v1.11.7
-	golang.org/x/oauth2 v0.9.0
+	golang.org/x/oauth2 v0.21.0
 	golang.org/x/sync v0.3.0
 	google.golang.org/api v0.128.0
 	google.golang.org/grpc v1.56.1
@@ -122,7 +122,6 @@ replace (
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
-	cloud.google.com/go/compute v1.19.3 // indirect
 	cloud.google.com/go/iam v0.13.0 // indirect
 	code.cloudfoundry.org/clock v1.0.0 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.3 // indirect
