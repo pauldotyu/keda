@@ -4,8 +4,8 @@ import (
 	"crypto/rsa"
 	"errors"
 	"fmt"
-	"io/ioutil"
 	"net/http"
+	"os"
 	"strconv"
 	"time"
 
@@ -30,7 +30,7 @@ type AppsTransport struct {
 
 // NewAppsTransportKeyFromFile returns a AppsTransport using a private key from file.
 func NewAppsTransportKeyFromFile(tr http.RoundTripper, appID int64, privateKeyFile string) (*AppsTransport, error) {
-	privateKey, err := ioutil.ReadFile(privateKeyFile)
+	privateKey, err := os.ReadFile(privateKeyFile)
 	if err != nil {
 		return nil, fmt.Errorf("could not read private key: %s", err)
 	}
@@ -104,6 +104,11 @@ func (t *AppsTransport) RoundTrip(req *http.Request) (*http.Response, error) {
 
 	resp, err := t.tr.RoundTrip(req)
 	return resp, err
+}
+
+// AppID returns the appID of the transport
+func (t *AppsTransport) AppID() int64 {
+	return t.appID
 }
 
 type AppsTransportOption func(*AppsTransport)
