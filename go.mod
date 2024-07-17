@@ -1,6 +1,8 @@
 module github.com/kedacore/keda/v2
 
-go 1.20
+go 1.21
+
+toolchain go1.22.4
 
 require (
 	cloud.google.com/go/compute/metadata v0.3.0
@@ -63,7 +65,7 @@ require (
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
-	github.com/tidwall/gjson v1.14.4
+	github.com/tidwall/gjson v1.17.1
 	github.com/xdg/scram v1.0.5
 	github.com/xhit/go-str2duration/v2 v2.1.0
 	github.com/youmark/pkcs8 v0.0.0-20201027041543-1326539a0a0a
