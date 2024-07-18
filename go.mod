@@ -2,8 +2,6 @@ module github.com/kedacore/keda/v2
 
 go 1.21
 
-toolchain go1.22.4
-
 require (
 	cloud.google.com/go/compute/metadata v0.3.0
 	cloud.google.com/go/monitoring v1.15.1
