@@ -175,7 +175,7 @@ require (
 	cloud.google.com/go/iam v1.1.7 // indirect
 	code.cloudfoundry.org/clock v1.1.0 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/internal v1.8.0 // indirect
-	github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventgrid v0.4.0
+	github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventgrid v0.5.0
 	github.com/Azure/go-amqp v1.0.5 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
 	github.com/Azure/go-autorest/autorest/adal v0.9.23 // indirect
