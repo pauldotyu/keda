@@ -2470,8 +2470,8 @@ k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 h1:aVUu9fTY98ivBPKR9Y5w/A
 k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00/go.mod h1:AsvuZPBlUDVuCdzJ87iajxtXuR9oktsTctW/R9wwouA=
 k8s.io/metrics v0.29.7 h1:/oMPdVL7dt+lF8W6lXTg9gIKz1dDKgVBfDnJwgyJrhk=
 k8s.io/metrics v0.29.7/go.mod h1:5AiYPn1Crd25wtTh7OxHg9Rm2t9THSXJVp3Lb2k7MB8=
-k8s.io/utils v0.0.0-20240102154912-e7106e64919e h1:eQ/4ljkx21sObifjzXwlPKpdGLrCfRziVtos3ofG/sQ=
-k8s.io/utils v0.0.0-20240102154912-e7106e64919e/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
+k8s.io/utils v0.0.0-20240423183400-0849a56e8f22 h1:ao5hUqGhsqdm+bYbjH/pRkCs0unBGe9UyDahzs9zQzQ=
+k8s.io/utils v0.0.0-20240423183400-0849a56e8f22/go.mod h1:OLgZIPagt7ERELqWJFomSt595RzquPNLL48iOWgYOg0=
 knative.dev/pkg v0.0.0-20240805063731-c88d5dad9653 h1:VHUW124ZpkDn4EnIzMuGWvGuJte3ISIoHMmEw2kx0zU=
 knative.dev/pkg v0.0.0-20240805063731-c88d5dad9653/go.mod h1:H+5rS2GEWpAZzrmQoXOEVq/1M77LLMhR7+4jZBMOQ24=
 lukechampine.com/uint128 v1.1.1/go.mod h1:c4eWIwlEGaxC/+H1VguhU4PHXNWDCDMUlWdIWl2j1gk=
@@ -2539,8 +2539,8 @@ sigs.k8s.io/controller-runtime/tools/setup-envtest v0.0.0-20240804232438-89b5dee
 sigs.k8s.io/controller-runtime/tools/setup-envtest v0.0.0-20240804232438-89b5deec030c/go.mod h1:lMOTIN14oWZXDAQ4YuBsRCpS/N5EyqrBJPwkcyZqmAk=
 sigs.k8s.io/controller-tools v0.15.0 h1:4dxdABXGDhIa68Fiwaif0vcu32xfwmgQ+w8p+5CxoAI=
 sigs.k8s.io/controller-tools v0.15.0/go.mod h1:8zUSS2T8Hx0APCNRhJWbS3CAQEbIxLa07khzh7pZmXM=
-sigs.k8s.io/custom-metrics-apiserver v1.29.0 h1:uUoUjbPrE6nVBE82bo8siIkUDMsfbaSTBB6jAx/LJ9M=
-sigs.k8s.io/custom-metrics-apiserver v1.29.0/go.mod h1:4XXz92s/SEmP3L2nlUu6lMWorxEQXAD39AdL22IQkDA=
+sigs.k8s.io/custom-metrics-apiserver v1.30.0 h1:BCgg2QfInoWXvoJgPK8TxrSS9r5wR4NNvr7M+9sUOYo=
+sigs.k8s.io/custom-metrics-apiserver v1.30.0/go.mod h1:QXOKIL83M545uITzoZn4OC1C7nr0WhLh70A38pbzUpk=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd h1:EDPBXCAspyGV4jQlpZSudPeMmr1bNJefnuqLsRAsHZo=
 sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd/go.mod h1:B8JuhiUyNFVKdsE8h686QcCxMaH6HrOAZj4vswFpcB0=
 sigs.k8s.io/kustomize/api v0.17.3 h1:6GCuHSsxq7fN5yhF2XrC+AAr8gxQwhexgHflOAD/JJU=

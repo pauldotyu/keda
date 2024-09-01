@@ -1,7 +1,6 @@
 module github.com/kedacore/keda/v2
 
 go 1.22.0
-
 toolchain go1.22.5
 
 require (
@@ -108,14 +107,14 @@ require (
 	k8s.io/code-generator v0.30.0
 	k8s.io/component-base v0.30.0
 	k8s.io/klog/v2 v2.120.1
-	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340
-	k8s.io/metrics v0.29.4
-	k8s.io/utils v0.0.0-20240102154912-e7106e64919e
+	k8s.io/kube-openapi v0.0.0-20240430033511-f0e62f92d13f
+	k8s.io/metrics v0.30.0
+	k8s.io/utils v0.0.0-20240423183400-0849a56e8f22
 	knative.dev/pkg v0.0.0-20240805063731-c88d5dad9653
 	sigs.k8s.io/controller-runtime v0.17.5
 	sigs.k8s.io/controller-runtime/tools/setup-envtest v0.0.0-20240804232438-89b5deec030c
 	sigs.k8s.io/controller-tools v0.15.0
-	sigs.k8s.io/custom-metrics-apiserver v1.29.0
+	sigs.k8s.io/custom-metrics-apiserver v1.30.0
 	sigs.k8s.io/kustomize/kustomize/v5 v5.4.3
 )
 
